@@ -8,6 +8,7 @@ function M.setup(opts)
     end
     print("FTerminal Loaded")
     require "FTerminal.core"
+    require "FTerminal.commands"
 end
 
 return M
