@@ -1,0 +1,1 @@
+# FTerminal.nvim
