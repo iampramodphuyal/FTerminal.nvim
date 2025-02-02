@@ -62,7 +62,4 @@ function M.sendCommandToTerminal(cmd)
     end
 end
 
--- Keybinding to toggle the floating terminal
-vim.keymap.set({ "n", "t" }, "<leader>ft", M.toggle_floating_term, { noremap = true, silent = true })
-
 return M

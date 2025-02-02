@@ -6,6 +6,7 @@ function M.setup(opts)
     for key, value in pairs(opts) do
         config[key] = value
     end
+    print("FTerminal Loaded")
     require "FTerminal.core"
 end
 
